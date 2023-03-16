@@ -1,0 +1,31 @@
+Algoritmo "Fibonacci"
+
+// 1,1,2,3,5,8,13, 21 ....
+
+Var
+
+   termos: Inteiro;
+   contador: Inteiro;
+   anterior: Inteiro;
+   atual: Inteiro;
+   proximo: Inteiro;
+
+
+Inicio
+
+   anterior <- 0;
+   atual <-1 ;
+   proximo <-1 ;
+
+   escreval("Digite a qtd de termos desejados: ")
+   leia (termos)
+
+   para contador de 1 ate termos faca
+      escreval (proximo)
+      proximo <-atual+anterior;
+      anterior <- atual;
+      atual <-proximo;
+
+   fimpara
+
+Fimalgoritmo
